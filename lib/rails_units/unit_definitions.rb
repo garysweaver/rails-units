@@ -117,7 +117,7 @@ UNIT_DEFINITIONS = {
   '<mmHg>' => [%w{mmHg}, 133.322368,:pressure, %w{<kilogram>},%w{<meter> <second> <second>}],
   '<inHg>' => [%w{inHg}, 3386.3881472,:pressure, %w{<kilogram>},%w{<meter> <second> <second>}],
   '<torr>' => [%w{torr}, 133.322368,:pressure, %w{<kilogram>},%w{<meter> <second> <second>}],
-  '<bar>' => [%w{bar}, 100000,:pressure, %w{<kilogram>},%w{<meter> <second> <second>}],
+  #'<bar>' => [%w{bar}, 100000,:pressure, %w{<kilogram>},%w{<meter> <second> <second>}],
   '<atm>' => [%w{atm ATM atmosphere atmospheres}, 101325,:pressure, %w{<kilogram>},%w{<meter> <second> <second>}],
   '<psi>' => [%w{psi}, 6894.76,:pressure, %w{<kilogram>},%w{<meter> <second> <second>}],
   '<cmh2o>' => [%w{cmH2O}, 98.0638,:pressure, %w{<kilogram>},%w{<meter> <second> <second>}],
@@ -226,8 +226,8 @@ UNIT_DEFINITIONS = {
   '<pixel>' => [%w{pixel px}, 1, :resolution, %w{<each>}],
   '<ppi>' => [%w{ppi}, 1, :resolution, %w{<pixel>}, %w{<inch>}],
   '<dpi>' => [%w{dpi}, 1, :typography, %w{<dot>}, %w{<inch>}],
-  '<pica>' => [%w{pica}, 0.00423333333 , :typography, %w{<meter>}],
-  '<point>' => [%w{point pt}, 0.000352777778, :typography, %w{<meter>}],
+  #'<pica>' => [%w{pica}, 0.00423333333 , :typography, %w{<meter>}],
+  #'<point>' => [%w{point pt}, 0.000352777778, :typography, %w{<meter>}],
 
   #other
   '<cell>' => [%w{cells cell}, 1, :counting, %w{<each>}],
